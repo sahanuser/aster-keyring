@@ -3,7 +3,7 @@ post_upgrade() {
 		usr/bin/pacman-key --populate aster
 	else
 		echo " >>> Run \`pacman-key --init\` to set up your pacman keyring."
-		echo " >>> Then run \`pacman-key --populate aster\` to install the Carli keyring."
+		echo " >>> Then run \`pacman-key --populate aster\` to install the Aster keyring."
 	fi
 }
 

@@ -1,5 +1,5 @@
 pkgname=aster-keyring
-pkgver=1
+pkgver=20221229
 pkgrel=1
 pkgdesc="Aster keyring"
 arch=('any')

@@ -1,5 +1,9 @@
 #!/bin/sh
 
 git add .
-git commit -m "asl-keyring"
+
+echo "Enter your commit"
+read input
+
+git commit -m "$input"
 git push -u origin master

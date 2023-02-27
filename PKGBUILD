@@ -1,5 +1,5 @@
 pkgname=aster-keyring
-pkgver=20221229
+pkgver=20230227
 pkgrel=1
 pkgdesc="Aster keyring"
 arch=('any')
@@ -11,6 +11,9 @@ source=('Makefile'
 	'aster-revoked'
 	'aster-trusted')
 validpgpkeys=('77cb3a785ef1d36ad6a3ff6dedb9b8e88153beb7')
+pkgver() {
+  date +%Y%m%d
+}
 md5sums=('e32abc16b1d41dfcd6cb77baece98321'
          '026cd135be474cd39e43331c9809ebcb'
          'd41d8cd98f00b204e9800998ecf8427e'
